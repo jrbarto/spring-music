@@ -1,4 +1,4 @@
-for i in {100..101}; do
+for i in {100..165}; do
     git checkout -b mybranch$i
     echo example > test$i
     git add .
